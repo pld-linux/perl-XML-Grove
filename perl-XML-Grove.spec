@@ -3,8 +3,8 @@
 %bcond_with tests	# perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	XML
-%define		pnam	Grove
+%define	pdir	XML
+%define	pnam	Grove
 Summary:	XML::Grove Perl module
 Summary(cs):	Modul XML::Grove pro Perl
 Summary(da):	Perlmodul XML::Grove
