@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_with tests	# perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	XML
 %define		pnam	Grove
@@ -21,7 +25,8 @@ Summary(zh_CN):	XML::Grove Perl Ä£¿é
 Name:		perl-XML-Grove
 Version:	0.46alpha
 Release:	9
-License:	GPL
+# same as perl (however COPYING says Artistic)
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	48bee70ae412bd6cf8ef302b6c68e24e
@@ -90,12 +95,14 @@ XML::Grove Perl Ä£¿é
 	INSTALLDIRS=vendor
 %{__make}
 
+%{?with_tests:%{__make} test}
+
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
-
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 install examples/* $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %clean
