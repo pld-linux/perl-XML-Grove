@@ -24,7 +24,7 @@ Summary(uk):	Модуль для Perl XML::Grove
 Summary(zh_CN):	XML::Grove Perl дё©И
 Name:		perl-XML-Grove
 Version:	0.46alpha
-Release:	9
+Release:	10
 # same as perl (however COPYING says Artistic)
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
