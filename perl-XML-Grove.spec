@@ -47,6 +47,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc *.gz
 %{perl_sitelib}/XML/Grove.pm
 %{perl_sitelib}/XML/Grove
-%{perl_sitelib}/XML/Parser/Grove.pm
 %{_mandir}/man3/*
 %{_examplesdir}/%{name}-%{version}
