@@ -20,11 +20,11 @@ Summary(uk):	Модуль для Perl XML::Grove
 Summary(zh_CN):	XML::Grove Perl дё©И
 Name:		perl-XML-Grove
 Version:	0.46alpha
-Release:	7
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl >= 5.6.1
 BuildRequires:	perl-XML-Parser
 BuildArch:	noarch
@@ -85,7 +85,8 @@ XML::Grove Perl дё©И
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -102,7 +103,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_sitelib}/XML/Grove.pm
-%{perl_sitelib}/XML/Grove
+%{perl_vendorlib}/XML/Grove.pm
+%{perl_vendorlib}/XML/Grove
 %{_mandir}/man3/*
 %{_examplesdir}/%{name}-%{version}
