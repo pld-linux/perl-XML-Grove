@@ -2,8 +2,8 @@
 Summary:	XML-Grove perl module
 Summary(pl):	Modu³ perla XML-Grove
 Name:		perl-XML-Grove
-Version:	0.05
-Release:	3
+Version:	0.46alpha
+Release:	1
 Copyright:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
