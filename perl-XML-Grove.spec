@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	XML
 %define	pnam	Grove
-Summary:	XML-Grove perl module
-Summary(pl):	Modu³ perla XML-Grove
+Summary:	XML::Grove perl module
+Summary(pl):	Modu³ perla XML::Grove
 Name:		perl-XML-Grove
 Version:	0.46alpha
 Release:	6
@@ -16,10 +16,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-XML-Grove perl module.
+XML::Grove perl module.
 
 %description -l pl
-Modu³ perla XML-Grove.
+Modu³ perla XML::Grove.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
