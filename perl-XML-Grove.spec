@@ -10,7 +10,7 @@ Summary(fr):	Module Perl XML::Grove
 Summary(it):	Modulo di Perl XML::Grove
 Summary(ja):	XML::Grove Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	XML::Grove ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul XML::Grove
+Summary(nb):	Perlmodul XML::Grove
 Summary(pl):	Modu³ Perla XML::Grove
 Summary(pt):	Módulo de Perl XML::Grove
 Summary(pt_BR):	Módulo Perl XML::Grove
@@ -58,7 +58,7 @@ XML::Grove Perl ¥â¥¸¥å¡¼¥ë
 %description -l ko
 XML::Grove ÆÞ ¸ðÁÙ.
 
-%description -l no
+%description -l nb
 Perlmodul XML::Grove.
 
 %description -l pl
