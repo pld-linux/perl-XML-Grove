@@ -6,22 +6,22 @@
 %define		pdir	XML
 %define		pnam	Grove
 Summary:	XML::Grove Perl module
-Summary(cs):	Modul XML::Grove pro Perl
-Summary(da):	Perlmodul XML::Grove
-Summary(de):	XML::Grove Perl Modul
-Summary(es):	MÛdulo de Perl XML::Grove
-Summary(fr):	Module Perl XML::Grove
-Summary(it):	Modulo di Perl XML::Grove
-Summary(ja):	XML::Grove Perl •‚•∏•Â°º•Î
-Summary(ko):	XML::Grove ∆ﬁ ∏¡Ÿ
-Summary(nb):	Perlmodul XML::Grove
-Summary(pl):	Modu≥ Perla XML::Grove
-Summary(pt):	MÛdulo de Perl XML::Grove
-Summary(pt_BR):	MÛdulo Perl XML::Grove
-Summary(ru):	Ìœƒ’Ãÿ ƒÃ— Perl XML::Grove
-Summary(sv):	XML::Grove Perlmodul
-Summary(uk):	Ìœƒ’Ãÿ ƒÃ— Perl XML::Grove
-Summary(zh_CN):	XML::Grove Perl ƒ£øÈ
+Summary(cs.UTF-8):   Modul XML::Grove pro Perl
+Summary(da.UTF-8):   Perlmodul XML::Grove
+Summary(de.UTF-8):   XML::Grove Perl Modul
+Summary(es.UTF-8):   M√≥dulo de Perl XML::Grove
+Summary(fr.UTF-8):   Module Perl XML::Grove
+Summary(it.UTF-8):   Modulo di Perl XML::Grove
+Summary(ja.UTF-8):   XML::Grove Perl „É¢„Ç∏„É•„Éº„É´
+Summary(ko.UTF-8):   XML::Grove ÌéÑ Î™®Ï§Ñ
+Summary(nb.UTF-8):   Perlmodul XML::Grove
+Summary(pl.UTF-8):   Modu≈Ç Perla XML::Grove
+Summary(pt.UTF-8):   M√≥dulo de Perl XML::Grove
+Summary(pt_BR.UTF-8):   M√≥dulo Perl XML::Grove
+Summary(ru.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl XML::Grove
+Summary(sv.UTF-8):   XML::Grove Perlmodul
+Summary(uk.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl XML::Grove
+Summary(zh_CN.UTF-8):   XML::Grove Perl Ê®°Âùó
 Name:		perl-XML-Grove
 Version:	0.46alpha
 Release:	10
@@ -39,53 +39,53 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 XML::Grove perl module.
 
-%description -l cs
+%description -l cs.UTF-8
 Modul XML::Grove pro Perl.
 
-%description -l da
+%description -l da.UTF-8
 Perlmodul XML::Grove.
 
-%description -l de
+%description -l de.UTF-8
 XML::Grove Perl Modul.
 
-%description -l es
-MÛdulo de Perl XML::Grove.
+%description -l es.UTF-8
+M√≥dulo de Perl XML::Grove.
 
-%description -l fr
+%description -l fr.UTF-8
 Module Perl XML::Grove.
 
-%description -l it
+%description -l it.UTF-8
 Modulo di Perl XML::Grove.
 
-%description -l ja
-XML::Grove Perl •‚•∏•Â°º•Î
+%description -l ja.UTF-8
+XML::Grove Perl „É¢„Ç∏„É•„Éº„É´
 
-%description -l ko
-XML::Grove ∆ﬁ ∏¡Ÿ.
+%description -l ko.UTF-8
+XML::Grove ÌéÑ Î™®Ï§Ñ.
 
-%description -l nb
+%description -l nb.UTF-8
 Perlmodul XML::Grove.
 
-%description -l pl
-Modu≥ perla XML::Grove.
+%description -l pl.UTF-8
+Modu≈Ç perla XML::Grove.
 
-%description -l pt
-MÛdulo de Perl XML::Grove.
+%description -l pt.UTF-8
+M√≥dulo de Perl XML::Grove.
 
-%description -l pt_BR
-MÛdulo Perl XML::Grove.
+%description -l pt_BR.UTF-8
+M√≥dulo Perl XML::Grove.
 
-%description -l ru
-Ìœƒ’Ãÿ ƒÃ— Perl XML::Grove.
+%description -l ru.UTF-8
+–ú–æ–¥—É–ª—å –¥–ª—è Perl XML::Grove.
 
-%description -l sv
+%description -l sv.UTF-8
 XML::Grove Perlmodul.
 
-%description -l uk
-Ìœƒ’Ãÿ ƒÃ— Perl XML::Grove.
+%description -l uk.UTF-8
+–ú–æ–¥—É–ª—å –¥–ª—è Perl XML::Grove.
 
-%description -l zh_CN
-XML::Grove Perl ƒ£øÈ
+%description -l zh_CN.UTF-8
+XML::Grove Perl Ê®°Âùó
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
