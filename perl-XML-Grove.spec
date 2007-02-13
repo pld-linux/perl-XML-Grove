@@ -6,22 +6,22 @@
 %define		pdir	XML
 %define		pnam	Grove
 Summary:	XML::Grove Perl module
-Summary(cs.UTF-8):   Modul XML::Grove pro Perl
-Summary(da.UTF-8):   Perlmodul XML::Grove
-Summary(de.UTF-8):   XML::Grove Perl Modul
-Summary(es.UTF-8):   Módulo de Perl XML::Grove
-Summary(fr.UTF-8):   Module Perl XML::Grove
-Summary(it.UTF-8):   Modulo di Perl XML::Grove
-Summary(ja.UTF-8):   XML::Grove Perl モジュール
-Summary(ko.UTF-8):   XML::Grove 펄 모줄
-Summary(nb.UTF-8):   Perlmodul XML::Grove
-Summary(pl.UTF-8):   Moduł Perla XML::Grove
-Summary(pt.UTF-8):   Módulo de Perl XML::Grove
-Summary(pt_BR.UTF-8):   Módulo Perl XML::Grove
-Summary(ru.UTF-8):   Модуль для Perl XML::Grove
-Summary(sv.UTF-8):   XML::Grove Perlmodul
-Summary(uk.UTF-8):   Модуль для Perl XML::Grove
-Summary(zh_CN.UTF-8):   XML::Grove Perl 模块
+Summary(cs.UTF-8):	Modul XML::Grove pro Perl
+Summary(da.UTF-8):	Perlmodul XML::Grove
+Summary(de.UTF-8):	XML::Grove Perl Modul
+Summary(es.UTF-8):	Módulo de Perl XML::Grove
+Summary(fr.UTF-8):	Module Perl XML::Grove
+Summary(it.UTF-8):	Modulo di Perl XML::Grove
+Summary(ja.UTF-8):	XML::Grove Perl モジュール
+Summary(ko.UTF-8):	XML::Grove 펄 모줄
+Summary(nb.UTF-8):	Perlmodul XML::Grove
+Summary(pl.UTF-8):	Moduł Perla XML::Grove
+Summary(pt.UTF-8):	Módulo de Perl XML::Grove
+Summary(pt_BR.UTF-8):	Módulo Perl XML::Grove
+Summary(ru.UTF-8):	Модуль для Perl XML::Grove
+Summary(sv.UTF-8):	XML::Grove Perlmodul
+Summary(uk.UTF-8):	Модуль для Perl XML::Grove
+Summary(zh_CN.UTF-8):	XML::Grove Perl 模块
 Name:		perl-XML-Grove
 Version:	0.46alpha
 Release:	10
