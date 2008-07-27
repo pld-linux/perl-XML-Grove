@@ -24,7 +24,7 @@ Summary(uk.UTF-8):	Модуль для Perl XML::Grove
 Summary(zh_CN.UTF-8):	XML::Grove Perl 模块
 Name:		perl-XML-Grove
 Version:	0.46alpha
-Release:	10
+Release:	11
 # same as perl (however COPYING says Artistic)
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
