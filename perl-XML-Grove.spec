@@ -4,7 +4,6 @@
 
 %define		pdir	XML
 %define		pnam	Grove
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Grove Perl module
 Summary(cs.UTF-8):	Modul XML::Grove pro Perl
 Summary(da.UTF-8):	Perlmodul XML::Grove
